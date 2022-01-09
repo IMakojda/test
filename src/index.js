@@ -29,7 +29,7 @@ function onSearch(e){
     Notiflix.Notify.success(`"Hooray! We found ${totalHits} images."`);
     apiFetch.nextPage();
     appendCardMarkUp (hits)
-    // console.log(hits);
+    console.log(hits);
   });  
 }
   
